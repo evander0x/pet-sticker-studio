@@ -18,10 +18,7 @@ description: Use when turning a real pet into stickers that must match the suppl
 
 ## 参考素材
 
-- `assets/references/pet-wave-v2.png`：完整风格与构图参考
-- `assets/references/sticker-heart-cat.png`：手绘线条、蜡笔颗粒和装饰参考
-- `assets/references/sticker-good-cat.png`：手绘文字和装饰组合参考
-- `assets/references/sticker-working-cat.png`：手绘道具、对话框和复杂构图参考
+- `assets/references/handdrawn-9-grid.png`：手绘线条、蜡笔颗粒、九宫格排版和动作密度参考
 
 参考图只锁定画风，不复制其中的猫；宠物的物种、脸型、毛色、斑纹、耳朵、眼睛和独有标记以用户照片为准。
 

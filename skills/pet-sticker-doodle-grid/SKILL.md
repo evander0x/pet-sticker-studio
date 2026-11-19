@@ -18,7 +18,7 @@ description: Use when turning a real pet into simple doodle-style stickers or a 
 
 ## 参考素材
 
-- `assets/references/IMG_7452-clean.png`：已去水印的画风、九宫格排版、留白和动作密度参考
+- `assets/references/doodle-9-grid.png`：简笔线稿、九宫格排版、留白和动作密度参考
 
 参考图只锁定画风和组图结构，不复制其中的猫；宠物的物种、脸型、毛色、斑纹、耳朵、眼睛、配饰和独有标记以用户照片为准。
 

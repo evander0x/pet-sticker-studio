@@ -18,8 +18,7 @@ description: Use when turning a real pet into stickers that must match the suppl
 
 ## 参考素材
 
-- `assets/references/pet-01-received.png`：宠物扁平卡通主体和牌子构图参考
-- `assets/references/03-top-right-received.png`：简洁线条、平整色块和文字牌参考
+- `assets/references/flat-cartoon-9-grid.png`：扁平线条、平整色块、九宫格排版和动作密度参考
 
 参考图只锁定画风，不复制其中的动物；宠物的物种、脸型、毛色、斑纹、耳朵、眼睛和独有标记以用户照片为准。
 
