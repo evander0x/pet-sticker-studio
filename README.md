@@ -2,9 +2,17 @@
 
 <div align="center">
 
-![Pet Sticker Studio](docs/assets/promo/dog-handdrawn-9-grid.png)
+<h1>Pet Sticker Studio</h1>
 
-### 把真实宠物，变成真正像它的表情包
+<p><strong>真实宠物 → 有辨识度的定制表情包</strong></p>
+
+<table>
+  <tr>
+    <td align="center"><b>真实宠物照片</b><br /><img src="docs/assets/promo/dog-real-photo.png" width="260" alt="真实小狗照片" /></td>
+    <td align="center"><strong>→</strong></td>
+    <td align="center"><b>生成的表情包</b><br /><img src="docs/assets/promo/dog-handdrawn-9-grid.png" width="420" alt="手绘风小狗九宫格" /></td>
+  </tr>
+</table>
 
 从宠物照片提取稳定的身份特征，再匹配不同画风，生成动作丰富、风格统一的九宫格表情包。
 
@@ -26,18 +34,26 @@
 - **九格保持一致**：同一只宠物、同一套画风、不同的表情和动作。
 - **生成后做检查**：关注毛色漂移、脸型漂移、重复姿势和多余肢体等问题。
 
-## 三种画风
+## 真实宠物 × 三种画风
 
 <table>
   <tr>
-    <td align="center"><b>Hand-drawn</b><br />蜡笔 / 彩铅手绘</td>
-    <td align="center"><b>Flat cartoon</b><br />简洁扁平卡通</td>
-    <td align="center"><b>Doodle grid</b><br />轻量简笔涂鸦</td>
+    <th>真实宠物</th>
+    <th>画风</th>
+    <th>九宫格结果</th>
   </tr>
   <tr>
-    <td><img src="docs/assets/promo/dog-handdrawn-9-grid.png" alt="手绘蜡笔风小狗九宫格" /></td>
-    <td><img src="docs/assets/promo/dog-flat-cartoon-9-grid.png" alt="扁平卡通风小狗九宫格" /></td>
-    <td><img src="docs/assets/promo/dog-doodle-9-grid.png" alt="简笔涂鸦风小狗九宫格" /></td>
+    <td rowspan="3"><img src="docs/assets/promo/dog-real-photo.png" width="220" alt="真实小狗照片" /></td>
+    <td align="center"><b>Hand-drawn</b><br />蜡笔 / 彩铅手绘</td>
+    <td><img src="docs/assets/promo/dog-handdrawn-9-grid.png" width="360" alt="手绘蜡笔风小狗九宫格" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Flat cartoon</b><br />简洁扁平卡通</td>
+    <td><img src="docs/assets/promo/dog-flat-cartoon-9-grid.png" width="360" alt="扁平卡通风小狗九宫格" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Doodle grid</b><br />轻量简笔涂鸦</td>
+    <td><img src="docs/assets/promo/dog-doodle-9-grid.png" width="360" alt="简笔涂鸦风小狗九宫格" /></td>
   </tr>
 </table>
 
