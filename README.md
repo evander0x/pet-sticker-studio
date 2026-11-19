@@ -10,7 +10,7 @@
   <tr>
     <td align="center"><b>真实宠物照片</b><br /><img src="docs/assets/promo/dog-real-photo.png" width="260" alt="真实小狗照片" /></td>
     <td align="center"><strong>→</strong></td>
-    <td align="center"><b>生成的表情包</b><br /><img src="docs/assets/promo/dog-handdrawn-9-grid.png" width="420" alt="手绘风小狗九宫格" /></td>
+    <td align="center"><b>生成的表情包</b><br /><img src="docs/assets/promo/dog-handdrawn-featured.png" width="420" alt="彩铅蜡笔手绘风小狗表情包" /></td>
   </tr>
 </table>
 
@@ -45,7 +45,7 @@
   <tr>
     <td rowspan="3"><img src="docs/assets/promo/dog-real-photo.png" width="220" alt="真实小狗照片" /></td>
     <td align="center"><b>Hand-drawn</b><br />蜡笔 / 彩铅手绘</td>
-    <td><img src="docs/assets/promo/dog-handdrawn-9-grid.png" width="360" alt="手绘蜡笔风小狗九宫格" /></td>
+    <td><img src="docs/assets/promo/dog-handdrawn-featured.png" width="360" alt="彩铅蜡笔手绘风小狗九宫格" /></td>
   </tr>
   <tr>
     <td align="center"><b>Flat cartoon</b><br />简洁扁平卡通</td>
