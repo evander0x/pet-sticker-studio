@@ -1,0 +1,4 @@
+interface:
+  display_name: "宠物身份贴纸"
+  short_description: "提取宠物身份特征并保持整套表情包角色一致"
+  default_prompt: "为这只宠物提取身份特征卡，并据此生成一组风格统一的表情包。"

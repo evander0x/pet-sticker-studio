@@ -1,0 +1,4 @@
+interface:
+  display_name: "宠物手绘贴纸风"
+  short_description: "按手绘蜡笔彩铅风生成宠物表情包"
+  default_prompt: "使用手绘蜡笔彩铅风，把这只宠物制作成表情包。"

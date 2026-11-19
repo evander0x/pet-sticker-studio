@@ -1,0 +1,4 @@
+interface:
+  display_name: "宠物简笔九宫格风"
+  short_description: "按简笔涂鸦九宫格风生成宠物表情包"
+  default_prompt: "使用简笔涂鸦九宫格风，把这只宠物制作成表情包。"
