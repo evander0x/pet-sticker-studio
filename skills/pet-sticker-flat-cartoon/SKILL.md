@@ -5,7 +5,7 @@ description: Use when turning a real pet into stickers that must match the suppl
 
 # 宠物扁平贴纸风
 
-使用这套风格把真实宠物制作成透明底表情包。生成前必须同时使用：用户宠物照片作为身份参考，以及本 skill 的 `assets/references/` 作为画风参考。
+使用这套风格把真实宠物制作成透明底表情包。每次生成前必须同时加载用户宠物照片、9宫格总览参考和单张细节参考。
 
 ## 画风定义
 
@@ -19,6 +19,7 @@ description: Use when turning a real pet into stickers that must match the suppl
 ## 参考素材
 
 - `assets/references/flat-cartoon-9-grid.png`：扁平线条、平整色块、九宫格排版和动作密度参考
+- `assets/references/flat-cartoon-single.png`：单个角色的线宽、五官、色块边缘和道具细节锚点
 
 参考图只锁定画风，不复制其中的动物；宠物的物种、脸型、毛色、斑纹、耳朵、眼睛和独有标记以用户照片为准。
 
@@ -36,5 +37,7 @@ only the pose, emotion, props and approved text. Transparent background, complet
 no watermark, no rough crayon texture, no painterly finish, no photorealistic scene,
 no generic replacement animal.
 ```
+
+每次生成前确认身份照片、`flat-cartoon-9-grid.png` 和 `flat-cartoon-single.png` 都已进入本次任务。9宫格负责整体构图与动作语言，单张图负责局部线条和细节；任一参考图未加载时暂停生成。每张都重新使用原始身份照片和两张风格参考图，不得只依赖上一张结果。
 
 生成 1 张试样后，先检查是否同时满足“宠物像本人”和“像参考画风”，再批量生成。

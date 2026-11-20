@@ -18,7 +18,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Identity--first-FFB84D?style=flat-square" alt="Identity first" />
-  <img src="https://img.shields.io/badge/3%20Sticker%20Styles-8E7CFF?style=flat-square" alt="Three sticker styles" />
+  <img src="https://img.shields.io/badge/4%20Sticker%20Styles-8E7CFF?style=flat-square" alt="Four sticker styles" />
   <img src="https://img.shields.io/badge/3%C3%973%20Expression%20Grid-5CC8A1?style=flat-square" alt="3 by 3 expression grid" />
 </p>
 
@@ -34,7 +34,7 @@
 - **九格保持一致**：同一只宠物、同一套画风、不同的表情和动作。
 - **生成后做检查**：关注毛色漂移、脸型漂移、重复姿势和多余肢体等问题。
 
-## 真实宠物 × 三种画风
+## 真实宠物 × 四种画风
 
 <table>
   <tr>
@@ -54,6 +54,22 @@
   <tr>
     <td align="center"><b>Doodle grid</b><br />轻量简笔涂鸦</td>
     <td><img src="docs/assets/promo/dog-doodle-9-grid.png" width="360" alt="简笔涂鸦风小狗九宫格" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Colored pencil</b><br />彩铅写实手绘</td>
+    <td><img src="docs/assets/promo/dog-handdrawn-featured.png" width="360" alt="彩铅写实手绘风小狗九宫格" /></td>
+  </tr>
+</table>
+
+## 其他动物表情包
+
+下面的画风参考图展示了同一套生成能力也适用于其他动物；这里仅用于展示画风与表情包效果，不对应上方的真实宠物对照。
+
+<table>
+  <tr>
+    <td align="center"><b>Hand-drawn</b><br />蜡笔 / 彩铅手绘<br /><img src="skills/pet-sticker-handdrawn/assets/references/handdrawn-9-grid.png" width="360" alt="其他动物手绘风表情包参考" /></td>
+    <td align="center"><b>Flat cartoon</b><br />简洁扁平卡通<br /><img src="skills/pet-sticker-flat-cartoon/assets/references/flat-cartoon-9-grid.png" width="360" alt="其他动物扁平卡通风表情包参考" /></td>
+    <td align="center"><b>Doodle grid</b><br />轻量简笔涂鸦<br /><img src="skills/pet-sticker-doodle-grid/assets/references/doodle-9-grid.png" width="360" alt="其他动物简笔涂鸦风表情包参考" /></td>
   </tr>
 </table>
 
@@ -87,6 +103,7 @@
 | `pet-sticker-handdrawn` | 生成蜡笔 / 彩铅颗粒感的手绘贴纸 |
 | `pet-sticker-flat-cartoon` | 生成粗描边、平色块、低阴影的扁平卡通贴纸 |
 | `pet-sticker-doodle-grid` | 生成轻线稿、大留白、动作清晰的简笔九宫格 |
+| `pet-sticker-colored-pencil` | 生成细密彩铅毛发、柔和纸感的写实手绘贴纸 |
 
 ## 目录结构
 

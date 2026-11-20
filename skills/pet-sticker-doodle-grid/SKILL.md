@@ -5,7 +5,7 @@ description: Use when turning a real pet into simple doodle-style stickers or a 
 
 # 宠物简笔九宫格风
 
-使用这套风格把真实宠物制作成简笔涂鸦表情包，尤其适合 3×3 九宫格组图。身份特征来自用户照片，画风与排版来自本 skill 的参考图。
+使用这套风格把真实宠物制作成简笔涂鸦表情包，尤其适合 3×3 九宫格组图。每次生成前必须同时加载用户宠物照片、9宫格总览参考和单张细节参考。
 
 ## 画风定义
 
@@ -19,6 +19,7 @@ description: Use when turning a real pet into simple doodle-style stickers or a 
 ## 参考素材
 
 - `assets/references/doodle-9-grid.png`：简笔线稿、九宫格排版、留白和动作密度参考
+- `assets/references/doodle-single.png`：单个角色的线条松紧、五官简化、留白比例和道具细节锚点
 
 参考图只锁定画风和组图结构，不复制其中的猫；宠物的物种、脸型、毛色、斑纹、耳朵、眼睛、配饰和独有标记以用户照片为准。
 
@@ -36,5 +37,7 @@ is requested. Keep the user's pet identity and unique accessories unchanged.
 No heavy crayon texture, no thick glossy vector outline, no photorealistic scene,
 no watermark, no extra animals, no crowded background.
 ```
+
+每次生成前确认身份照片、`doodle-9-grid.png` 和 `doodle-single.png` 都已进入本次任务。9宫格负责组图结构，单张图负责线条、五官和细节；任一参考图未加载时不得生成。每张或每格都重新使用原始身份照片和两张风格参考图，不得只依赖上一张结果。
 
 生成九宫格时先固定网格和每格动作清单，再检查九格中的宠物是否仍然是同一只；若用户需要单张上传，再将每格独立导出为 1:1 透明 PNG。
