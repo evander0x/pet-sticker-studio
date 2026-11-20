@@ -73,7 +73,7 @@ npx skills add evander0x/pet-sticker-studio
   </tr>
   <tr>
     <td align="center"><b>Colored pencil</b><br />彩铅写实手绘</td>
-    <td><img src="docs/assets/promo/dog-handdrawn-featured.png" width="360" alt="彩铅写实手绘风小狗九宫格" /></td>
+    <td><img src="skills/pet-sticker-colored-pencil/assets/references/colored-pencil-realistic-9-grid.png" width="360" alt="彩铅写实手绘风小狗九宫格" /></td>
   </tr>
 </table>
 
@@ -121,10 +121,6 @@ AI 自动提取身份特征：毛色 / 斑纹 / 脸型 / 耳朵 / 体型 / 配�
   <img src="docs/assets/tutorial/02-preview-result.png" width="760" alt="查看生成的九宫格预览并确认是否继续" />
 </p>
 
-## 进阶使用方式
-
-如果需要更高的一致性控制，再将同一只宠物的正面、侧面或全身照片放入 `pets/<pet-name>/`，手动维护身份特征卡，或指定画风参考图和每张表情的动作清单。普通使用不需要先做这些准备。
-
 ## Skills
 
 | Skill | 用途 |
@@ -140,8 +136,6 @@ AI 自动提取身份特征：毛色 / 斑纹 / 脸型 / 耳朵 / 体型 / 配�
 ```text
 pet-sticker-studio/
 ├── skills/                 # 身份与画风 skills，包含必要参考图
-├── pets/                   # 宠物照片、身份特征卡、确认记录
-├── generated/              # 九宫格预览和 9 张单张生成结果
 └── docs/
     └── assets/
         ├── promo/          # README 宣传展示图

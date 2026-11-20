@@ -1,10 +1,3 @@
-# User-provided pet photos and local identity data.
-pets/*
-!pets/.gitkeep
-
-# Generated artwork and local previews.
-generated/*
-!generated/.gitkeep
 docs/*
 !docs/.gitkeep
 !docs/assets/
