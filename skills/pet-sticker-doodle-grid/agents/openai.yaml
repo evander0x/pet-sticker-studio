@@ -1,4 +1,4 @@
 interface:
   display_name: "宠物简笔九宫格风"
   short_description: "按简笔涂鸦九宫格风生成宠物表情包"
-  default_prompt: "使用简笔涂鸦九宫格风，把这只宠物制作成表情包；每次加载 doodle-9-grid.png 和 doodle-single.png 作为画风参考，并保留这只宠物的身份特征。"
+  default_prompt: "收到一张宠物照片后，先用简笔涂鸦风生成九宫格预览；确认后再将 9 个表情分别生成透明底单张表情包。加载 doodle-9-grid.png 和 doodle-single.png 作为画风参考，并保留这只宠物的身份特征。"

@@ -3,6 +3,10 @@ name: pet-sticker-colored-pencil
 description: Use when turning a real pet into expressive stickers in the supplied soft, detailed colored-pencil illustration style.
 ---
 
+## 默认使用方式
+
+用户只需上传一张宠物照片，并说“用彩铅写实手绘风生成九宫格表情包”。先生成 3×3 九宫格作为预览，确认宠物辨识度、画风和动作后，再把 9 个格子分别生成 9 张透明底单张表情包。九宫格图片默认是预览/宣传参考，不是最终交付；只有用户明确要求九宫格成品时才直接交付九宫格。
+
 # 宠物彩铅写实手绘贴纸风
 
 把真实宠物转换成有丰富动作和表情的彩铅手绘贴纸。每次生成前必须同时加载宠物照片、9宫格总览参考和单张细节参考。
@@ -29,7 +33,7 @@ description: Use when turning a real pet into expressive stickers in the supplie
 
 ## 身份与动作
 
-先用 `pet-identity-sticker` 提取身份特征。固定身份辨识点，不固定照片中的姿势、视角、眼睛开合、嘴巴状态或情绪。九宫格至少安排五类明显不同的动作/身体朝向；可包括趴卧、侧躺、行走、伸懒腰、跳跃、回头、探头、翻滚等，按动物结构选择合适动作。每格姿势要清晰，保持物种正常肢体数量，不出现重复肢体。
+由 `pet-identity-sticker` 在内部提取身份约束，不要求普通用户先确认身份卡。固定身份辨识点，不固定照片中的姿势、视角、眼睛开合、嘴巴状态或情绪。九宫格预览至少安排五类明显不同的动作/身体朝向；可包括趴卧、侧躺、行走、伸懒腰、跳跃、回头、探头、翻滚等，按动物结构选择合适动作。每格姿势要清晰，保持物种正常肢体数量，不出现重复肢体。
 
 ## 提示词要求
 

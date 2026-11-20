@@ -3,6 +3,10 @@ name: pet-sticker-flat-cartoon
 description: Use when turning a real pet into stickers that must match the supplied clean flat-cartoon reference style.
 ---
 
+## 默认使用方式
+
+用户只需上传一张宠物照片，并说“用扁平卡通风生成九宫格表情包”。先生成 3×3 九宫格作为预览，确认宠物辨识度、画风和动作后，再把 9 个格子分别生成 9 张透明底单张表情包。九宫格图片默认是预览/宣传参考，不是最终交付；只有用户明确要求九宫格成品时才直接交付九宫格。
+
 # 宠物扁平贴纸风
 
 使用这套风格把真实宠物制作成透明底表情包。每次生成前必须同时加载用户宠物照片、9宫格总览参考和单张细节参考。
@@ -25,7 +29,7 @@ description: Use when turning a real pet into stickers that must match the suppl
 
 ## 生成约束
 
-先调用 `pet-identity-sticker` 提取并确认宠物身份特征卡，再生成表情。每张都重复身份卡，不要只引用上一张生成图。
+由 `pet-identity-sticker` 在内部提取身份约束，不要求普通用户先确认身份卡。九宫格预览阶段先固定 9 个动作和情绪；用户确认后，每张单图都重复完整身份约束，不要只引用上一张生成图。
 
 提示词必须包含：
 
@@ -40,4 +44,4 @@ no generic replacement animal.
 
 每次生成前确认身份照片、`flat-cartoon-9-grid.png` 和 `flat-cartoon-single.png` 都已进入本次任务。9宫格负责整体构图与动作语言，单张图负责局部线条和细节；任一参考图未加载时暂停生成。每张都重新使用原始身份照片和两张风格参考图，不得只依赖上一张结果。
 
-生成 1 张试样后，先检查是否同时满足“宠物像本人”和“像参考画风”，再批量生成。
+阶段一检查九宫格是否同时满足“宠物像本人”和“像参考画风”；用户确认后，再按格子逐张生成，不把九宫格直接当作最终单图。
